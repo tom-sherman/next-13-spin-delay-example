@@ -16,5 +16,5 @@ export function SpinDelay({
 }) {
   use(wait(delay));
 
-  return spinner;
+  return <>{spinner}</>;
 }
